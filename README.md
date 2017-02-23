@@ -2,6 +2,10 @@ I'm a front-end developer. Previously, I was a C++ developer for 10 years. Last 
 
 Now I want to work as a freelancer, so I have to write static pages myself. So I got some open source Bootstrap templates, learn them, and write the HTML/CSS to generate the nearly same web pages.
 
-Here is my works distribution. 
+Here is my works distribution. You can view the pages: 
 
-Thanks to [https://startbootstrap.com](https://startbootstrap.com).
+* [Home](https://notecode.github.io)
+* [A landing page demo](https://notecode.github.io/demo/landing.html)
+* [Freelancer demo](https://notecode.github.io/demo/freelancer.html)
+
+Thanks to [https://startbootstrap.com](https://startbootstrap.com)
