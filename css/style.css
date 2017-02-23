@@ -1,0 +1,212 @@
+.btn {
+  background-color: orange; }
+
+ul {
+  padding-left: 0; }
+
+[data-t-name="header"] p {
+  font-size: 20px;
+  color: orange; }
+
+#landing #banner, #landing #banner2 {
+  text-align: center;
+  color: #eeeeee;
+  background: url("/demo/images/landing/intro-bg.jpg") no-repeat center center;
+  background-size: cover; }
+  #landing #banner .row, #landing #banner2 .row {
+    margin: 15% 0; }
+    #landing #banner .row h1, #landing #banner2 .row h1 {
+      font-size: 5em; }
+    #landing #banner .row p, #landing #banner2 .row p {
+      font-size: 24px; }
+    #landing #banner .row hr, #landing #banner2 .row hr {
+      width: 400px; }
+    @media (max-width: 768px) {
+      #landing #banner .row hr, #landing #banner2 .row hr {
+        max-width: 100%; } }
+    #landing #banner .row ul li, #landing #banner2 .row ul li {
+      display: inline-block; }
+      #landing #banner .row ul li .btn, #landing #banner2 .row ul li .btn {
+        background-color: #eeeeee;
+        margin: 0 20px; }
+
+#landing #banner2 {
+  background: url("/demo/images/landing/banner-bg.jpg") no-repeat center center; }
+  #landing #banner2 .row {
+    margin: 5% 0; }
+    #landing #banner2 .row h1 {
+      font-size: 3em;
+      margin: 0; }
+
+#landing .main-body .row {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#landing .main-body.part1, #landing .main-body.part3 {
+  background-color: #eeeeee; }
+
+#landing #footer ul li {
+  display: inline-block; }
+
+#freelancer {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center; }
+  #freelancer .navbar {
+    background-color: #233140; }
+  #freelancer .navbar-brand {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500; }
+  #freelancer .navbar-nav {
+    color: #fff; }
+  #freelancer a {
+    color: inherit; }
+  #freelancer a:hover {
+    color: #18BC9C; }
+  #freelancer #banner {
+    background-color: #18BC9C;
+    padding-top: 80px;
+    color: #fff; }
+    #freelancer #banner img {
+      display: inline-block; }
+    #freelancer #banner h1 {
+      font-size: 2em; }
+    @media (min-width: 768px) {
+      #freelancer #banner {
+        padding-top: 120px; }
+        #freelancer #banner h1 {
+          font-size: 5em;
+          font-weight: 600; }
+        #freelancer #banner p {
+          font-size: 1.5em; } }
+  #freelancer hr {
+    border: 2px solid #fff;
+    border-radius: 2px;
+    width: 200px; }
+  #freelancer hr:after {
+    font-family: FontAwesome;
+    content: '\f005';
+    font-size: 25px;
+    position: relative;
+    top: -17px;
+    background-color: #18BC9C;
+    padding: 0 3px; }
+  #freelancer #portfolio {
+    padding: 50px 0; }
+    #freelancer #portfolio .row:first {
+      color: #233140; }
+    #freelancer #portfolio h1 {
+      font-size: 2em;
+      font-weight: 600;
+      margin-top: 0; }
+    @media (min-width: 768px) {
+      #freelancer #portfolio h1 {
+        font-size: 4em; } }
+    #freelancer #portfolio hr {
+      border: 2px solid #233140; }
+    #freelancer #portfolio hr:after {
+      background-color: #fff; }
+    #freelancer #portfolio .gallery > div {
+      margin-top: 15px;
+      margin-bottom: 15px; }
+      #freelancer #portfolio .gallery > div a {
+        max-width: 400px;
+        position: relative;
+        display: block;
+        margin: 0 auto; }
+        #freelancer #portfolio .gallery > div a .cover {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: rgba(24, 188, 156, 0.8);
+          opacity: 0; }
+          #freelancer #portfolio .gallery > div a .cover .fixer {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            height: 20px;
+            margin-top: -10px; }
+            #freelancer #portfolio .gallery > div a .cover .fixer .fa {
+              margin-top: -10px;
+              color: #fff; }
+      #freelancer #portfolio .gallery > div a:hover .cover {
+        opacity: 1; }
+  #freelancer #about {
+    background-color: #18BC9C;
+    color: #fff;
+    padding: 50px 0; }
+    #freelancer #about h1 {
+      font-size: 4em;
+      font-weight: 600;
+      margin-top: 0; }
+    #freelancer #about .contents {
+      text-align: left;
+      font-size: 18px; }
+    #freelancer #about .btn {
+      background-color: #18BC9C;
+      border: 2px solid #fff;
+      font-size: 22px; }
+    #freelancer #about .btn:hover {
+      background-color: #fff;
+      color: #18BC9C; }
+    #freelancer #about .btn:before {
+      font-family: FontAwesome;
+      content: '\f019';
+      margin-right: 5px; }
+  #freelancer #bottom {
+    background-color: #233140;
+    color: #fff;
+    padding: 50px 0; }
+    #freelancer #bottom h1 {
+      font-size: 1.6em;
+      font-weight: 600;
+      margin-bottom: 20px; }
+    #freelancer #bottom p {
+      font-size: 1.2em; }
+    #freelancer #bottom ul {
+      list-style: none;
+      margin-bottom: 20px; }
+      #freelancer #bottom ul li {
+        display: inline; }
+        #freelancer #bottom ul li span {
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+          font-size: 25px;
+          border: 2px solid #fff;
+          padding-top: 11px;
+          border-radius: 50%; }
+        #freelancer #bottom ul li a:hover span {
+          background-color: #fff; }
+    #freelancer #bottom .author {
+      color: #18BC9C; }
+  #freelancer #footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px; }
+
+#trick {
+  text-align: center; }
+  #trick p {
+    font-size: 18px; }
+  #trick .square {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #18BC9C;
+    border-radius: 10px; }
+  #trick .shower {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    background-color: #fff;
+    border: 1px solid #000; }
+  #trick .hori-center {
+    display: inline-block; }
+  #trick .v-fixer {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 50%;
+    margin-top: -10px;
+    border: 1px solid #000; }
