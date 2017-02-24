@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="/css/style.css">
 
   </head>
@@ -23,7 +24,18 @@
           </div>
         </div>
       </div>
-      <div class="row"></div>
+
+      <!-- suppose: .row & .col-x-n should always be used togethor; With them both, or without neither, the content will be align left&right rightly.
+          Maybe because .row's margin: -15px, and .col-x-n's padding: 15px effect together --> 
+      <hr>
+
+      <h1 style="border: 1px solid blue">Title</h1>
+
+      <div class="row">
+        <div class="col-md-6"><img class="img-responsive" src="http://placehold.it/700x350" alt=""></div>
+        <div class="col-md-6"><img class="img-responsive" src="http://placehold.it/700x350" alt=""></div>
+      </div>
+
     </div>
 
     <script src="/vendor/jquery.js"></script>

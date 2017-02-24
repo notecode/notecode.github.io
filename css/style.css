@@ -1,12 +1,65 @@
 .btn {
-  background-color: orange; }
+  border: 1px solid #ddd; }
 
 ul {
   padding-left: 0; }
 
-[data-t-name="header"] p {
-  font-size: 20px;
-  color: orange; }
+#header {
+  background-color: #000; }
+  #header a {
+    color: gray; }
+  #header a:hover {
+    color: #fff; }
+  #header .dropdown-menu {
+    background-color: #000; }
+
+#footer {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+#index-page hr {
+  border-top: 1px solid #ddd; }
+
+#index-page .feature-block {
+  border: 1px solid #ddd;
+  border-radius: 5px; }
+  #index-page .feature-block h2 {
+    background-color: #f5f5f5;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 15px; }
+    #index-page .feature-block h2 i {
+      font-size: 0.8em;
+      margin-right: 6px; }
+  #index-page .feature-block hr {
+    margin: 0; }
+  #index-page .feature-block p {
+    margin: 0 15px;
+    margin-top: 15px; }
+  #index-page .feature-block .btn {
+    margin: 15px; }
+
+#index-page .title2 {
+  margin-top: 50px; }
+  #index-page .title2 hr {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+#index-page .gallery > div {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+#index-page .text-image {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  #index-page .text-image ul {
+    padding-left: 50px; }
+
+#index-page .action .btn {
+  font-size: 1.5em;
+  background-color: #fff; }
+  #index-page .action .btn:hover {
+    background-color: gray; }
 
 #landing #banner, #landing #banner2 {
   text-align: center;
