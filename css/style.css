@@ -4,6 +4,10 @@
 ul {
   padding-left: 0; }
 
+.sub-page hr {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
 #header {
   background-color: #000; }
   #header a {
@@ -16,6 +20,14 @@ ul {
 #footer {
   margin-top: 20px;
   margin-bottom: 20px; }
+
+.title {
+  margin-top: 70px; }
+  .title h1 {
+    display: inline-block; }
+  .title span {
+    font-size: 1.8em;
+    margin-left: 10px; }
 
 #index-page hr {
   border-top: 1px solid #ddd; }
@@ -60,6 +72,38 @@ ul {
   background-color: #fff; }
   #index-page .action .btn:hover {
     background-color: gray; }
+
+#about-page .team-gallery {
+  text-align: center; }
+  #about-page .team-gallery .team {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px; }
+    #about-page .team-gallery .team .job {
+      color: gray; }
+    #about-page .team-gallery .team ul li {
+      font-size: 2em;
+      margin-left: 5px;
+      margin-right: 5px;
+      display: inline-block; }
+
+#about-page .customers div {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+#services-page .panel-list {
+  margin-top: 20px; }
+  #services-page .panel-list .panel {
+    border: 1px solid #ddd;
+    text-align: center; }
+    #services-page .panel-list .panel .up-part {
+      background-color: #f5f5f5;
+      border-bottom: 1px solid #ddd; }
+    #services-page .panel-list .panel p {
+      padding-left: 10px;
+      padding-right: 10px; }
+    #services-page .panel-list .panel .btn {
+      margin-bottom: 15px; }
 
 #landing #banner, #landing #banner2 {
   text-align: center;
@@ -263,3 +307,9 @@ ul {
     top: 50%;
     margin-top: -10px;
     border: 1px solid #000; }
+
+#misc-page {
+  margin-top: 50px;
+  font-size: 40px; }
+  #misc-page .row > div {
+    border: 1px solid #ddd; }
