@@ -8,4 +8,9 @@ Here is my works distribution. You can view the pages:
 * [A landing page demo](https://notecode.github.io/demo/landing.html)
 * [Freelancer demo](https://notecode.github.io/demo/freelancer.html)
 
+PS: 
+These are distribution, the source code you can ref [here](https://github.com/notecode/repo/tree/master/frontend/stone)
+I use gulp to distibute. If you know gulp, it's easy.
+
 Thanks to [https://startbootstrap.com](https://startbootstrap.com)
+
