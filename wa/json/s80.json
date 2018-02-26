@@ -1,0 +1,803 @@
+
+[
+  {
+    "id": 1,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 1,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 2,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 1,
+    "retention": 5,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 3,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 1,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 4,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 2,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 5,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 2,
+    "retention": 5,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 6,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 2,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 7,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 3,
+    "retention": 2,
+    "retentionrate": 1
+  },
+  {
+    "id": 8,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 3,
+    "retention": 2,
+    "retentionrate": 0.2
+  },
+  {
+    "id": 9,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 3,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 10,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 4,
+    "retention": 2,
+    "retentionrate": 1
+  },
+  {
+    "id": 11,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 4,
+    "retention": 2,
+    "retentionrate": 0.2
+  },
+  {
+    "id": 12,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 4,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 13,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 5,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 14,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 5,
+    "retention": 3,
+    "retentionrate": 0.3
+  },
+  {
+    "id": 15,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 5,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 16,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 6,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 17,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 6,
+    "retention": 3,
+    "retentionrate": 0.3
+  },
+  {
+    "id": 18,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 6,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 19,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 7,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 20,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 7,
+    "retention": 4,
+    "retentionrate": 0.4
+  },
+  {
+    "id": 21,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 7,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 22,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 8,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 23,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 8,
+    "retention": 4,
+    "retentionrate": 0.4
+  },
+  {
+    "id": 24,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 8,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 25,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 9,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 26,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 9,
+    "retention": 4,
+    "retentionrate": 0.4
+  },
+  {
+    "id": 27,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 9,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 28,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 10,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 29,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 10,
+    "retention": 2,
+    "retentionrate": 0.2
+  },
+  {
+    "id": 30,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 10,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 31,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 11,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 32,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 11,
+    "retention": 3,
+    "retentionrate": 0.3
+  },
+  {
+    "id": 33,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 11,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 34,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 12,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 35,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 12,
+    "retention": 3,
+    "retentionrate": 0.3
+  },
+  {
+    "id": 36,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 12,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 37,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 13,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 38,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 13,
+    "retention": 2,
+    "retentionrate": 0.2
+  },
+  {
+    "id": 39,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 13,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 40,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 14,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 41,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 14,
+    "retention": 3,
+    "retentionrate": 0.3
+  },
+  {
+    "id": 42,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 14,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 43,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 15,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 44,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 15,
+    "retention": 2,
+    "retentionrate": 0.2
+  },
+  {
+    "id": 45,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 15,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 46,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 16,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 47,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 16,
+    "retention": 2,
+    "retentionrate": 0.2
+  },
+  {
+    "id": 48,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 16,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 49,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 17,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 50,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 17,
+    "retention": 3,
+    "retentionrate": 0.3
+  },
+  {
+    "id": 51,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 17,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 52,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 18,
+    "retention": 2,
+    "retentionrate": 1
+  },
+  {
+    "id": 53,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 18,
+    "retention": 2,
+    "retentionrate": 0.2
+  },
+  {
+    "id": 54,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 18,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 55,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 19,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 56,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 19,
+    "retention": 2,
+    "retentionrate": 0.2
+  },
+  {
+    "id": 57,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 19,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 58,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 20,
+    "retention": 2,
+    "retentionrate": 1
+  },
+  {
+    "id": 59,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 20,
+    "retention": 3,
+    "retentionrate": 0.3
+  },
+  {
+    "id": 60,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 20,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 61,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 21,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 62,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 21,
+    "retention": 3,
+    "retentionrate": 0.3
+  },
+  {
+    "id": 63,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 21,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 64,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 22,
+    "retention": 2,
+    "retentionrate": 1
+  },
+  {
+    "id": 65,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 22,
+    "retention": 6,
+    "retentionrate": 0.6
+  },
+  {
+    "id": 66,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 22,
+    "retention": 2,
+    "retentionrate": 2
+  },
+  {
+    "id": 67,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 23,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 68,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 23,
+    "retention": 1,
+    "retentionrate": 0.1
+  },
+  {
+    "id": 69,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 23,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 70,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 24,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 71,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 24,
+    "retention": 1,
+    "retentionrate": 0.1
+  },
+  {
+    "id": 72,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 24,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 73,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 25,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 74,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 25,
+    "retention": 1,
+    "retentionrate": 0.1
+  },
+  {
+    "id": 75,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 25,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 76,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 26,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 77,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 26,
+    "retention": 1,
+    "retentionrate": 0.1
+  },
+  {
+    "id": 78,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 1,
+    "version": "ios-0.1.5",
+    "step": 26,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 79,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 27,
+    "retention": 0,
+    "retentionrate": 0
+  },
+  {
+    "id": 80,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.16",
+    "step": 27,
+    "retention": 0,
+    "retentionrate": 0
+  }
+]

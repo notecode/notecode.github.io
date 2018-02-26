@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 2,
+    "version": "ios-0.0.16",
+    "step": 10,
+    "retention": 1,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 2,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "ios-0.0.16",
+    "step": 2,
+    "retention": 5,
+    "retentionrate": 0.5
+  },
+  {
+    "id": 3,
+    "gid": 1,
+    "date": "2017/9/4 0:00",
+    "newcount": 10,
+    "version": "android-0.0.15",
+    "step": 1,
+    "retention": 5,
+    "retentionrate": 0.5
+  }
+]
