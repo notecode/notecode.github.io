@@ -12,15 +12,15 @@
             border-spacing: unset;
         }
         thead {
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 700;
         }
         td {
             border-left: 1px solid #999;
             border-top: 1px solid #999;
-            font-size: 13px;
+            font-size: 16px;
             text-align: right;
-            padding: 1px 5px;
+            padding: 5px 5px;
         }
         td.day7, td.day8 {
             border-left: 1px solid #f00;
@@ -33,7 +33,7 @@
         }
 
         .date {
-            font-size: 10px;
+            font-size: 16px;
         }
         .gray {
             color: #fff;
@@ -70,7 +70,7 @@
             <thead>{{=ver.version}}</thead>
             <tr><td>DateN</td><td>新增</td>
             {{~ver.dateList[0].arr :step:j}}
-                <td>{{=step.step}}天</td>
+                <td>{{=step.step}}月</td>
             {{~}}
             </tr>
             {{~ver.dateList :date:j}}

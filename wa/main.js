@@ -186,7 +186,7 @@ function makeTD(step, idx) {
     var dayN = makeDayN(idx);
     var r = step.retentionrate;
     var rate = (typeof r == 'string') ? parseFloat(r) : r;
-    if (0 < rate && rate < 1) {
+    if (0 <= rate && rate <= 1) {
         var s = 256 - (256 * rate).toFixed();
         var bg = 'background-color: rgb(' + s + ',' + s + ',' + s + ');';
         var clr = (rate > 0.6) ? ' color: #fff;' : '';
@@ -220,6 +220,7 @@ function isValidDate(date) {
 
 function sortVersions(arr) {
     var prior = {
+        'all': -1,
         'ios': 1,
         'android': 2,
         'ios-notin-coupon': 3,
