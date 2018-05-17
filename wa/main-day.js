@@ -220,6 +220,7 @@ function isValidDate(date) {
 
 function sortVersions(arr) {
     var prior = {
+        'all': -1,
         'ios': 1,
         'android': 2,
         'ios-notin-coupon': 3,
