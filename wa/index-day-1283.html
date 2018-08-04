@@ -1,0 +1,101 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+
+    <style>
+        table {
+            margin-bottom: 20px;
+            border-spacing: unset;
+        }
+        thead {
+            font-size: 14px;
+            font-weight: 700;
+        }
+        td {
+            border-left: 1px solid #999;
+            border-top: 1px solid #999;
+            font-size: 13px;
+            text-align: right;
+            padding: 1px 5px;
+        }
+        td.day7, td.day8 {
+            border-left: 1px solid #f00;
+        }
+        td.day15, td.day16 {
+            border-left: 1px solid #f00;
+        }
+        td.day30, td.day31 {
+            border-left: 1px solid #f00;
+        }
+
+        .date {
+            font-size: 10px;
+        }
+        .gray {
+            color: #fff;
+        }
+        #charts {
+            width: 100%;
+            height: 500px;
+            display: none;
+        }
+        ol {
+            font-size: 16px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>任丘</h3>
+    <ol>
+        <!-- <li>已过滤9/20之前发的版本</li> -->
+        <!-- <li>已过滤数据不足3天的版本 </li> -->
+        <!-- <li>如不想显示7日、15日、30日这几列的着重色，url请加参数: rgb=0</li> -->
+        <!-- <li>若想看按版本号统计的结果，url请加参数: byver=1</li> -->
+        <!-- <li>已过滤9/20之前的数据（欲展示，请加参数: all-data=1）</li> -->
+    </ol>
+
+    <div id="charts"></div>
+    <div id="tables"></div>
+</body>
+
+<script id="tpl-data" type="text/x-dot-template">
+	{{~it :ver:i}}
+        {{? ver.dateList.length > 3}}
+            <table>
+            <thead>{{=ver.version}}</thead>
+            <tr><td>DateN</td><td>新增</td>
+            {{~ver.dateList[0].arr :step:j}}
+                <td>{{=step.step}}天</td>
+            {{~}}
+            </tr>
+            {{~ver.dateList :date:j}}
+                {{? isValidDate(date.date)}}
+                    <tr><td class="date">{{=vdate(date.date)}}</td><td>{{=date.arr[0].newcount}}</td>
+                    {{~date.arr :step:k}}
+                        {{=makeTD(step, k)}}
+                    {{~}}
+                    </tr>
+                {{?}}
+            {{~}}
+            </table>
+        {{?}}
+	{{~}}
+</script>
+
+<script type="text/javascript" src="./lib/jquery.min.js"></script>
+<script type="text/javascript" src="./lib/doT.min.js"></script>
+<script type="text/javascript" src="./lib/mylib.js"></script>
+
+<script type="text/javascript" src="./data-day-1283.js"></script>
+<script type="text/javascript" src="./main-day.js"></script>
+
+</html>
+
