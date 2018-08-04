@@ -33,90 +33,12 @@ $(function() {
 
     window.arr = arr;
 
-    //fooRenderCharts(arr);
-    // for (var i = 0; i < arr.length; i++) {
-    //     if (arr[i].version == 'ios-0.1.22') {
-    //         renderVer30DaysRetention(arr[i]);
-    //     }
-    // }
-
     renderTable(arr);
 });
 
 function renderTable(data) {
     var html = doT_Render('tpl-data', data);
     document.getElementById('tables').innerHTML = html;
-}
-
-function fooRenderCharts(data) {
-    var myChart = echarts.init(document.getElementById('charts'));
-
-    var option = {
-        title: {
-            text: 'ECharts 入门示例'
-        },
-        tooltip: {},
-        legend: {
-            data:['销量']
-        },
-        xAxis: {
-            data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
-        },
-        yAxis: {},
-        series: [{
-            name: '销量',
-            type: 'line',
-            data: [5, 20, 36, 10]
-        }]
-    };
-
-    myChart.setOption(option);
-}
-
-function renderVer30DaysRetention(ver) {
-    var xArr = [];
-    var lgd = [];
-    for (var i = 0; i < ver.dateList.length; i++) {
-        lgd.push(vdate(ver.dateList[i].date));
-    }
-
-    var steps = ver.dateList[0].arr;
-    for (var i = 0; i < steps.length; i++) {
-        xArr.push(steps[i].step);
-    }
-
-    var serArr = [];
-    for (var i = 0; i < ver.dateList.length; i++) {
-        var the = ver.dateList[i];
-        var data = [];
-        for (var j = 0; j < the.arr.length; j++) {
-            data.push(the.arr[j].retentionrate);
-        }
-
-        serArr.push({
-            name: vdate(the.date),
-            type: 'line',
-            data: data,
-        });
-    }
-
-    var myChart = echarts.init(document.getElementById('charts'));
-    var option = {
-        title: {
-            text: ver.version
-        },
-        tooltip: {},
-        legend: {
-            data: lgd,
-        },
-        xAxis: {
-            data: xArr,
-        },
-        yAxis: {},
-        series: serArr
-    };
-
-    myChart.setOption(option);
 }
 
 function splitByVer(orgArr) {
